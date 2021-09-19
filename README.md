@@ -6,3 +6,6 @@ Bruteforce UID's for checking tokens
 ```bash
 crunch 8 8 1234567890qwertyuiopasdfghjklzxcvbnm -t b19a74@@ -o test.txt
 ```
+
+## Emulate UID w/ Proxmark3 or Chameleon
+

@@ -39,6 +39,6 @@ def tokens():
                         data = {'action':'check_card_balance','card_no': uid.strip()}
                         response = requests.post('https://www.chuckecheese.com/wp-admin/admin-ajax.php', headers=headers, data=data, verify=False)
                         balance = (response.text[24:25])
-                        print(uid.strip(), end=': ' + "Balance:" + response.text[24:25] + '\n')
+                        print(uid.strip(), end=': ' + "Balance:" + response.text[32:34] + '\n')
 
 tokens()
